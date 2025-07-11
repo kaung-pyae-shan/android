@@ -1,0 +1,60 @@
+1. User Authentication
+======================
+Only one role in the entire Application
+
+2. Borrower Management
+======================
+Add a new borrower (Name, NRC, Contact, Address)
+Edit borrower details
+View list of all borrowers
+Delete borrower
+
+3. Loan Application Management
+==============================
+Create new Loan
+    Link to a borrower
+    Loan Amount
+    Interest Rate
+    Duration (in months)
+    Start Date
+View Existing Loans
+Ediit or Delete Loans
+
+4. Repayment Tracking
+=====================
+Record Payments Made by borrower
+Automatically update:
+    Remaining balance
+    Payment History
+Show next due amount/date
+
+5. Interest and EMI calculation
+===============================
+Automatically calculate monthly EMI based on:
+    Interest type (fixed or reducing balance)
+    Loan amount
+    Duration
+
+6. Dashboard
+============
+Total number of borrowers
+Total disbursed amount
+Total received vs pending repayments
+List of overdue loans
+
+7. Reports
+==========
+Download/print:
+    Loan summary per borrower
+    Repayment history
+    Outstanding balance report
+
+Nice-to-Have Features
+=====================
+Search/filter borrowers or loans
+Loan status tags: Active, Completed, Overdue
+
+
+Repayment Methods
+=================
+EMI-based, Interest-Only
